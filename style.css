@@ -1,0 +1,57 @@
+body {
+    background-color: #ccc;
+    display: flex;
+}
+.body1 {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    
+}
+.toplogo {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 8px;
+    gap: 200px;
+}   
+.headerlogo {
+    color: white;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+.Headerlink {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.ullink {
+    display: flex;
+    list-style: none;
+    gap: 16px;
+    padding: 0;
+}
+.sezione1{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0px;
+    margin: 0;
+    background-color: #1f2937;
+    
+}
+.sez1sinistra {
+    color: white;
+}
+.Thisweb {
+    font-weight: bold;
+    font-size: xx-large;
+    margin-bottom: 0;
+}
+img {
+    height: 300px;
+    width: 400px;
+    border: 5px #ccc solid;
+}
